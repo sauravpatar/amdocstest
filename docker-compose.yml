@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+    amdocs:
+      image: amdocs-html:latest
+      container_name: amdocs-html
+      restart: always
+      ports:
+        - "80:80"
